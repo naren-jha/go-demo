@@ -14,7 +14,7 @@ func main() {
 	card := newCard()
 	fmt.Println(card)
 
-	// fmt.Println(getCountry()) // comes from file2.go
+	fmt.Println(getCountry()) // comes from file2.go
 	// run as "go run main.go file2.go"
 }
 
