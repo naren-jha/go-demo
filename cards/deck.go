@@ -59,6 +59,9 @@ func deal(d deck, handSize int) (deck, deck) {
 	return d[:handSize], d[handSize:]
 }
 
+// deal func is not supposed to modify the deck object
+// so take deck in arg instead as receiver
+
 func (d deck) toString() string {
 	return strings.Join([]string(d), ",")
 }
